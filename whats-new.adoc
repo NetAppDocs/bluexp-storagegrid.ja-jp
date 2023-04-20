@@ -14,7 +14,7 @@ summary: BlueXPでStorageGRID システムを管理する新機能について�
 
 
 [role="lead"]
-BlueXP（旧称Cloud Manager）でStorageGRID システムを管理する新機能について説明します。
+BlueXPでStorageGRID システムを管理する新機能について説明します
 
 
 

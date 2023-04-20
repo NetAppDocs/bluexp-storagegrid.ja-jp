@@ -16,16 +16,16 @@ summary: BlueXPでStorageGRID システムを検出すると、ネットアッ�
 [role="lead"]
 BlueXPでStorageGRID システムを検出すると、ネットアップのデータサービスを使用してバックアップやデータ同期を行うことができます。
 
-* Cloud Backup *を使用すると、オンプレミスのONTAP システムからNetApp StorageGRID システムのオブジェクトストレージにデータをバックアップできます。
+* BlueXPのバックアップとリカバリを使用して、オンプレミスのONTAP システムからNetApp StorageGRID システムのオブジェクトストレージにデータをバックアップします。
 +
-作業を開始するには、キャンバスに移動し、StorageGRID 作業環境上のオンプレミスONTAP 作業環境をドラッグアンドドロップします。
+BlueXPのキャンバスに移動して、オンプレミスのONTAP 作業環境をStorageGRID 作業環境にドラッグアンドドロップします。
 
 +
 https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-backup-onprem-private-cloud.html["オンプレミスのONTAP データをStorageGRID にバックアップする方法の詳細については、こちらをご覧ください"^]
 
-* StorageGRID システムとの間でデータを同期するには、* Cloud Sync *を使用します。
+* BlueXPのコピーと同期を使用して、StorageGRID システムとの間でデータを同期します。
 +
-作業を開始するには、Canvasに移動し、ソースの作業環境をターゲットの作業環境にドラッグアンドドロップします。StorageGRID にはソースまたはターゲットを指定できます。
+BlueXPのキャンバスに移動して、ソースの作業環境をターゲットの作業環境にドラッグアンドドロップします。StorageGRID にはソースまたはターゲットを指定できます。
 
 +
 https://docs.netapp.com/us-en/cloud-manager-sync/index.html["Cloud Sync の詳細については、こちらをご覧ください"^]
