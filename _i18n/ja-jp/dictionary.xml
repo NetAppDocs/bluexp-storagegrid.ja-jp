@@ -3,8 +3,6 @@
   <block id="4d59e76f3a0fb15954592256790b7f7e" category="doc">ネットアップのデータサービスとStorageGRID を併用</block>
   <block id="a4304a5e5ad0523cd1e2516efcbb04ea" category="inline-link">オンプレミスのONTAP データをStorageGRID にバックアップする方法の詳細については、こちらをご覧ください</block>
   <block id="5848e24b55c702b7cc486314cd78f6dc" category="paragraph"><block ref="5848e24b55c702b7cc486314cd78f6dc" category="inline-link-rx"></block></block>
-  <block id="c9e8b2e7aec1baa65efcbe84dfc9d0ed" category="inline-link">Cloud Sync の詳細については、こちらをご覧ください</block>
-  <block id="fcea636cb0627956ef5da173e7e82e53" category="paragraph"><block ref="fcea636cb0627956ef5da173e7e82e53" category="inline-link-rx"></block></block>
   <block id="a39b0065ec636bbdd671213be9d343f4" category="doc">StorageGRID 管理の新機能</block>
   <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">2022年9月18日</block>
   <block id="dc8bb8905a6984d0c45a4ada9e618ace" category="section-title">StorageGRID のサポート</block>
@@ -248,4 +246,6 @@
   <block id="ead1951b53a3b76661043b6bf5ff1b48" category="paragraph">BlueXPのキャンバスに移動して、オンプレミスのONTAP 作業環境をStorageGRID 作業環境にドラッグアンドドロップします。</block>
   <block id="b99ff865a132e7a6116d680732bd74a1" category="list-text">BlueXPのコピーと同期を使用して、StorageGRID システムとの間でデータを同期します。</block>
   <block id="e1bb8de567622bad90039f45af7d579c" category="paragraph">BlueXPのキャンバスに移動して、ソースの作業環境をターゲットの作業環境にドラッグアンドドロップします。StorageGRID にはソースまたはターゲットを指定できます。</block>
+  <block id="29a7b2441d86b88dc7b6b010d54ea1ea" category="inline-link">BlueXPのコピーと同期の詳細については、こちらをご覧ください</block>
+  <block id="e3e2362086f7a7cbdf71923245788646" category="paragraph"><block ref="e3e2362086f7a7cbdf71923245788646" category="inline-link-rx"></block></block>
 </blocks>
