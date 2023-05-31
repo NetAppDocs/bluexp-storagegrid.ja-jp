@@ -18,7 +18,7 @@ BlueXPでは、オンプレミス環境でStorageGRID システムを検出で�
 .必要なもの
 * クラウドプロバイダまたはオンプレミスにインストールされ、StorageGRID システムへのネットワーク接続を備えたコネクタ。
 +
-https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["コネクタの詳細と、コネクタの作成方法について説明します"^]
+https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["コネクタの詳細と、コネクタの作成方法について説明します"^]
 
 * 管理ノードのドメイン名またはIPアドレス。
 * 管理ノードの管理クレデンシャル。
