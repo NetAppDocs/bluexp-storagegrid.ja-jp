@@ -2,10 +2,10 @@
 layout: astra 
 sidebar: sidebar 
 permalink: index.html 
-lead: Discover your StorageGRID systems through BlueXP to get a complete view of data across your hybrid multicloud. 
-summary: BlueXPでStorageGRID システムを検出すると、ハイブリッドマルチクラウド全体のデータを包括的に把握できます。 
+lead: Discover your StorageGRID systems from BlueXP to get a complete view of data across your hybrid multicloud. 
+summary: BlueXPでStorageGRIDシステムを検出すると、ハイブリッドマルチクラウド全体のデータを包括的に把握できます。 
 ---
-= StorageGRID のドキュメント
+= BlueXPを使用したStorageGRIDの管理
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
