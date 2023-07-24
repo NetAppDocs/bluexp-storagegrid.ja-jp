@@ -26,13 +26,13 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["コネ
 
 .手順
 . BlueXPのナビゲーションメニューで、*[ストレージ]>[キャンバス]*を選択します。
-. *作業環境の追加*をクリックし、*オンプレミス*を選択します。
+. [Add Working Environment]*を選択し、*[On-Premises]*を選択します。
 . StorageGRID *の横にある* Discover *を選択します。
 . プロンプトが表示されたら、コネクタを作成します。
 +
 詳細については、上のリンクを参照してください。
 
-. StorageGRID クラスタの詳細ページで、管理ノードのドメイン名またはIPアドレス、ノードのクレデンシャルを入力し、*追加をクリックします。
+. StorageGRIDの[クラスタの詳細]ページで、管理ノードのドメイン名またはIPアドレス、ノードのクレデンシャルを入力し、*[追加]*を選択します。
 +
 image:screenshot-cluster-details.png["StorageGRID のクラスタの詳細ページを示すスクリーンショット。管理ノードのドメイン名またはIPアドレスとクレデンシャルを入力します。"]
 
