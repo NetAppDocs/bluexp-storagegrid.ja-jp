@@ -10,6 +10,7 @@ summary: ネットアップテクニカルサポートでサポートケース�
 :imagesdir: ../media/
 
 
+[role="lead"]
 BlueXPアカウントと個 々 のCloud Volumes ONTAPシステムにサポートを登録する必要があります。
 
 

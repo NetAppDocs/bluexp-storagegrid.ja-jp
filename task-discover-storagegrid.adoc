@@ -13,6 +13,7 @@ summary: BlueXPでは、オンプレミス環境でStorageGRID システムを�
 :imagesdir: ./media/
 
 
+[role="lead"]
 BlueXPでは、オンプレミス環境でStorageGRID システムを検出できます。StorageGRID システムをBlueXPに追加することで、ハイブリッドマルチクラウド全体のデータを完全に把握できます。
 
 .必要なもの
