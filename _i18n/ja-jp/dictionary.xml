@@ -39,7 +39,6 @@
   <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">プライバシーポリシー</block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">オープンソース</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知ファイルには、ネットアップソフトウェアで使用されるサードパーティの著作権およびライセンスに関する情報が記載されています。</block>
-  <block id="eabf36128e3f33d63b2921cfcf0f1162" category="doc">StorageGRID 作業環境を削除します</block>
   <block id="9ae507836de7475bf9902e01733fe556" category="inline-image-macro">作業環境の右上にある[ワークスペースから削除]オプションのスクリーンショット。</block>
   <block id="c8e6868d5b00caa06a19765007794f02" category="paragraph"><block ref="c8e6868d5b00caa06a19765007794f02" category="inline-image-macro-rx" type="image"></block></block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">ヘルプを表示します</block>
@@ -58,7 +57,6 @@
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">はじめに</block>
   <block id="f8fe3d533b3c8ec77c886cdbfcbd8c60" category="sidebar">StorageGRID システムを検出</block>
   <block id="a6ba2d89122672398b70094e4effce77" category="sidebar">StorageGRID システムを管理</block>
-  <block id="d4fe66ba55f1e103d1e1ef42d9901921" category="sidebar">StorageGRID システムを削除</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知識とサポート</block>
   <block id="5a48514fa915876d588438500b09c18f" category="sidebar">StorageGRID を削除します</block>
   <block id="ab066b3292d8ab61ef3b5c77169cdd19" category="sidebar">詳細情報</block>
@@ -126,7 +124,6 @@
   <block id="0b17baeba205d071cc0142cf4aba9b76" category="paragraph">StorageGRID システムをBlueXPから直接検出できるようになりました。StorageGRID を検出すると、ハイブリッドマルチクラウド全体のデータを包括的に把握できます。</block>
   <block id="6f6c91d32f256a6b43783564031a35dc" category="sidebar">BlueXP以外で管理するためのStorageGRID ドキュメント</block>
   <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXPブログ</block>
-  <block id="d59db7846bd10b6d60d21543df9faa9e" category="list-title">必要なもの</block>
   <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">結果</block>
   <block id="8fece025a1a8fef7018449bf104a2527" category="paragraph-title">始める前に</block>
   <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">完了後</block>
@@ -256,4 +253,9 @@
   <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">クラウドプロバイダのファイルサービスのサポート</block>
   <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">クラウドプロバイダのファイルサービスとそのインフラ、またはサービスを使用する解決策に関連するテクニカルサポートについては、該当する製品のBlueXPドキュメントの「困ったときは」を参照してください。</block>
   <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">BlueXPおよびそのストレージソリューションとサービスに固有のテクニカルサポートを受けるには、以下に記載されているサポートオプションを使用してください。</block>
+  <block id="724a6db0c5e9b582c8f6ea917749db0a" category="doc">StorageGRID作業環境を削除する</block>
+  <block id="135b308ed83c53f1516b7c754566d1c4" category="paragraph-title">作業を開始する前に</block>
+  <block id="4c6a9048ac276eb9391ebe2abd8e0c0d" category="paragraph">次のものが必要です。</block>
+  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新機能</block>
+  <block id="a9e825fa00a6490b83a7ab53e320af9a" category="sidebar">作業環境を削除します</block>
 </blocks>

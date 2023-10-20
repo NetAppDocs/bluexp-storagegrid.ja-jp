@@ -16,7 +16,9 @@ summary: BlueXPでは、オンプレミス環境でStorageGRID システムを�
 [role="lead"]
 BlueXPでは、オンプレミス環境でStorageGRID システムを検出できます。StorageGRID システムをBlueXPに追加することで、ハイブリッドマルチクラウド全体のデータを完全に把握できます。
 
-.必要なもの
+.作業を開始する前に
+次のものが必要です。
+
 * クラウドプロバイダまたはオンプレミスにインストールされ、StorageGRID システムへのネットワーク接続を備えたコネクタ。
 +
 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["コネクタの詳細と、コネクタの作成方法について説明します"^]

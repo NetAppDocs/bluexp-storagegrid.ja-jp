@@ -13,7 +13,9 @@ sidebar:
   - title: StorageGRID のドキュメント
     url: "/index.html"
   - title: リリースノート
-    url: "/whats-new.html"
+    entries:
+    - title: 新機能
+      url: "/whats-new.html"
   - title: はじめに
     entries:
     - title: StorageGRID システムを検出
@@ -24,7 +26,7 @@ sidebar:
       url: "/task-view-storagegrid.html"
     - title: ネットアップのデータサービスとStorageGRID を併用
       url: "/task-enable-data-services.html"
-    - title: StorageGRID システムを削除
+    - title: 作業環境を削除します
       url: "/task-remove-storagegrid.html"
   - title: 知識とサポート
     entries:

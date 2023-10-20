@@ -4,7 +4,7 @@ permalink: task-remove-storagegrid.html
 keywords: storagegrid, cluster, remove, delete, remove storagegrid, delete cluster, delete working environment, remove working environment 
 summary: 'StorageGRID 作業環境をBlueXPから管理する必要がなくなった場合は"その作業環境を削除します' 
 ---
-= StorageGRID 作業環境を削除します
+= StorageGRID作業環境を削除する
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
