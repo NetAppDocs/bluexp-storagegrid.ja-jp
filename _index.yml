@@ -1,0 +1,31 @@
+---
+indexpage:
+  title: BlueXPを使用したStorageGRIDの管理
+  summary: BlueXPでStorageGRIDシステムを検出すると、ハイブリッドマルチクラウド全体のデータを包括的に把握できます。
+  keywords: storagegrid systems, bluexp, data, hybrid, multicloud
+  lead: BlueXPでStorageGRIDシステムを検出すると、ハイブリッドマルチクラウド全体のデータを包括的に把握できます。
+  tiles:
+  - title: はじめに
+    links:
+    - title: StorageGRID システムを検出
+      url: task-discover-storagegrid.html
+  - title: StorageGRID システムを管理
+    links:
+    - title: StorageGRID システムを表示します
+      url: task-view-storagegrid.html
+    - title: ネットアップのデータサービスとStorageGRID を併用
+      url: task-enable-data-services.html
+    - title: StorageGRID を削除します
+      url: task-remove-storagegrid.html
+  - title: 詳細情報
+    links:
+    - title: BlueXP以外で管理するためのStorageGRID ドキュメント
+      url: https://docs.netapp.com/us-en/storagegrid-116/
+  - title: ブログコミュニティ
+    links:
+    - title: ネットアップコミュニティ
+      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
+    - title: BlueXPブログ
+      url: https://cloud.netapp.com/blog
+    - title: クラウドに関する Web セミナー
+      url: https://cloud.netapp.com/events
