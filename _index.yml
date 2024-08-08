@@ -1,9 +1,9 @@
 ---
 indexpage:
   title: BlueXPを使用したStorageGRIDの管理
-  summary: BlueXPでStorageGRIDシステムを検出すると、ハイブリッドマルチクラウド全体のデータを包括的に把握できます。
+  summary: BlueXP  からGrid Managerを使用してStorageGRIDシステムを管理し、BlueXPのデータサービスを使用してバックアップやデータ階層化などを実行できます。
   keywords: storagegrid systems, bluexp, data, hybrid, multicloud
-  lead: BlueXPでStorageGRIDシステムを検出すると、ハイブリッドマルチクラウド全体のデータを包括的に把握できます。
+  lead: BlueXP  からGrid Managerを使用してStorageGRIDシステムを管理し、BlueXPのデータサービスを使用してバックアップやデータ階層化などを実行できます。
   tiles:
   - title: はじめに
     links:
@@ -20,7 +20,7 @@ indexpage:
   - title: 詳細情報
     links:
     - title: BlueXP以外で管理するためのStorageGRID ドキュメント
-      url: https://docs.netapp.com/us-en/storagegrid-116/
+      url: https://docs.netapp.com/us-en/storagegrid-118/
   - title: ブログコミュニティ
     links:
     - title: ネットアップコミュニティ

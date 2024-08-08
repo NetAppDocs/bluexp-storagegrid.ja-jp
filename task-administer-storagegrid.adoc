@@ -1,0 +1,136 @@
+---
+sidebar: sidebar 
+permalink: task-administer-storagegrid.html 
+keywords: grid manager, advanced view, standard view, use grid manager, gridmanager 
+summary: アドバンストビューを使用して、BlueXP  からStorageGRIDシステムを管理します。このビューでは、StorageGRID作業環境内からGrid Managerを使用できます。 
+---
+= アドバンストビューを使用したStorageGRIDの管理
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+アドバンストビューを使用して、BlueXP  からStorageGRIDシステムを管理します。このビューでは、StorageGRID作業環境内からGrid Managerを使用できます。
+
+
+
+== サポートされる構成
+
+Grid Managerは、StorageGRID 11.8以降のBlueXP  で使用できます。
+
+
+
+== 制限事項
+
+次のGrid Manager処理はBlueXP  では実行できません。これらの処理を実行する必要がある場合は、Grid Managerに直接サインインします。
+
+[cols="1a,2a"]
+|===
+| Grid Managerメニュー | BlueXP  から実行できない処理 
+
+
+ a| 
+ユーザ
+ a| 
+* [サインアウト]リンク
+* APIドキュメントのリンク
+* パスワードの変更
+
+
+
+
+ a| 
+ノード
+ a| 
+* SANtricityシステムマネージャには、[ノード]> SANtricity [System Manager]タブからはアクセスできません。
+* アラートを表示しているときに、推奨される対処方法の一部のリンクを選択できない場合があります。たとえば、サポートされていないGrid Managerページへのリンクは機能しません。
+
+
+
+
+ a| 
+テナント
+ a| 
+テナントの作成ウィザードまたは[Tenants]ページからテナントアカウントにサインインすることはできません。
+
+BlueXP  は現在、テナントマネージャをサポートしていません。BlueXP  から新しいテナントアカウントを作成することはできますが、テナントユーザはBlueXP  から自分のアカウントにサインインすることはできません。
+
+
+
+ a| 
+ILM
+ a| 
+ストレージグレードのリンク
+
+
+
+ a| 
+構成
+ a| 
+* Grid のパスワード
+* トラフィック分類>メトリック
+* [セキュリティ設定]>[ブラウザの非アクティブタイムアウト]
+* シングルサインオン
+* BMCインターフェイスのSNMPエージェント> MIBファイル
+
+
+
+
+ a| 
+メンテナンス
+ a| 
+* リカバリパッケージ
+* ソフトウェアの更新
+
+
+
+
+ a| 
+サポート
+ a| 
+* グリッドトポロジ
+* ログ
+* 指標。UIの他の場所にあるPrometheus指標とGrafanaダッシュボードへのすべてのリンクを含む。
+* 従来のアラームのすべてのオプション
+* リンクコスト
+* NMS エンティティ
+
+
+|===
+
+
+== 詳細表示に切り替える
+
+StorageGRID作業環境を開き、アドバンストビューオプションを選択します。
+
+.手順
+. [Canvas]ページで、StorageGRID作業環境を開きます。
+. 右上の*[アドバンストビューに切り替える]*を選択します。
++
+image:screenshot-advanced-view.png["[アドバンストビューに切り替え]オプションを示すStorageGRID作業環境のスクリーンショット。"]
+
+. StorageGRIDシステムを管理するには、Grid Managerを使用します。
++
+Grid Managerの[Help]メニューが次のメニューに置き換えられました。
+
++
+image:advanced-view-menu.png["StorageGRID作業環境のスクリーンショット。画面の右上にアクションメニューが表示されます。"]
+
++
+このメニューでは、APIドキュメントのリンクを除き、すべて同じヘルプオプションを使用できます。
+
+. 必要に応じて、[標準ビューに切り替え（Switch to standard view）]を選択し、BlueXP  を介して標準ビューに戻ります。
++
+image:screenshot-standard-view.png["StorageGRID作業環境のスクリーンショット。[Switch to Standard View]オプションが表示されます。"]
+
+
+
+
+
+== Grid Managerに関するヘルプ
+
+Grid Managerの使用方法についてサポートが必要な場合は、を参照してステップバイステップの手順を確認 https://docs.netapp.com/us-en/storagegrid-118/admin/index.html["StorageGRID のドキュメント"^] してください。

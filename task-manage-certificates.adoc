@@ -1,0 +1,59 @@
+---
+sidebar: sidebar 
+permalink: task-manage-certificates.html 
+keywords: storagegrid, certificate, manage, manage interface certificate, refresh certificate, update certificate 
+summary: 証明書の有効期限が切れる可能性があるため、ステータスの表示や証明書の更新が必要になる場合があります。 
+---
+= BlueXP  で証明書を管理します。
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+BlueXP  とStorageGRIDの間のセキュアな接続には、ユーザによって承認された管理インターフェイス証明書が必要です。証明書の有効期限が切れる可能性があるため、ステータスの表示や証明書の更新が必要になる場合があります。
+
+
+
+== 管理インターフェイス証明書のステータスの表示
+
+.手順
+. ナビゲーションメニューから、*ストレージ>キャンバス*を選択します。
+. [Canvas]ページで、StorageGRID作業環境を選択します。
+. 標準ビューで、ページ右側の_Information_paneの下部にあるユーザ承認証明書のステータスを確認します。
++
+
+NOTE: 証明書のステータスは24時間に1回更新されます。
+
++
+image:screenshot-standard-view-information.png["作業環境の[Information]ペインのスクリーンショット。"]
+
+
+
+
+
+== 管理インターフェイスの証明書の更新
+
+管理インターフェイス証明書のステータスが「無効」である場合や、証明書の有効期限が切れたという通知を受け取った場合は、BlueXP  がStorageGRIDに接続できるように証明書を更新する必要があります。
+
+.手順
+. StorageGRIDでオンプレミスのグリッドマネージャに移動し、の手順に従います https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate["StorageGRIDへの管理インターフェイス証明書のインストール"]。
+. Blue XPのナビゲーションメニューで、*[ストレージ]>[Canvas]*を選択します。
+. [Canvas]ページで、StorageGRID作業環境を選択します。
+. [その他のオプション（More options）]アイコン（3つの縦の点が付いた円）を選択します。
++
+image:screenshot-update-certificate.png["更新メニューののスクリーンショット。"]
+
+. [証明書の更新]*を選択します。
++
+
+NOTE: [標準]ビューの[その他のオプション]アイコン（3つの縦の点が付いたアイコン）を使用して証明書を更新することもできます。
+
++
+image:screenshot-bluexp-approve-certificate.png["StorageGRIDシステムの検出中に表示される[Approve Certificate]画面を示すスクリーンショット"]
+
+. [_Approve certificate_]ページで*[Approve Certificate]*を選択して、更新された証明書を使用します。
+

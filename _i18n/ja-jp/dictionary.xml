@@ -110,13 +110,9 @@
   <block id="a4a6c2ea0078252eac2d74ef3e6c917c" category="paragraph">現在表示しているBlueXPのマニュアル。</block>
   <block id="d63bf50426f4c712554faec55b30c548" category="list-text">*Service*:問題 が関連付けられているサービスを選択します。たとえば、サービス内のワークフローまたは機能を備えたテクニカルサポート問題 に固有のBlueXPなどです。</block>
   <block id="aa996e20900197b0ea41485ada083d8c" category="paragraph">作業環境のリストは、サービスの上部バナーで選択したBlueXPアカウント、ワークスペース、コネクタの範囲内にあります。</block>
-  <block id="2c71302d487f8187b7a71c37c179042c" category="summary">BlueXPでは、オンプレミス環境でStorageGRID システムを検出できます。StorageGRID クラスタをBlueXPに追加することで、ハイブリッドマルチクラウド全体のデータを完全に把握できます。</block>
-  <block id="eceb40fde78eb6b6f2f6a7bff798d050" category="paragraph">BlueXPでは、オンプレミス環境でStorageGRID システムを検出できます。StorageGRID システムをBlueXPに追加することで、ハイブリッドマルチクラウド全体のデータを完全に把握できます。</block>
   <block id="3cc520598c18a9fc329389fe4ad413dd" category="paragraph">StorageGRID システムが検出され、キャンバス上の作業環境として追加されます。</block>
   <block id="05b22a89d498371ec741a6eb2ffba0bf" category="inline-image-macro">BlueXPキャンバス上のStorageGRID 作業環境を示すスクリーンショット。</block>
   <block id="6f0596d444e255bb3e396f1b15172e09" category="paragraph"><block ref="6f0596d444e255bb3e396f1b15172e09" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="54bd03a569afb098328ca82511616f55" category="summary">BlueXPでStorageGRID システムを検出すると、ネットアップのデータサービスとStorageGRID を使用してバックアップとデータ同期を行うことができます。</block>
-  <block id="b88241859cee076fd3a4ddaeda099288" category="paragraph">BlueXPでStorageGRID システムを検出すると、ネットアップのデータサービスを使用してバックアップやデータ同期を行うことができます。</block>
   <block id="c99454978b70ce8c05ee8d05b1e2aaaf" category="summary">BlueXPでStorageGRID システムを管理する新機能について説明します</block>
   <block id="0b17baeba205d071cc0142cf4aba9b76" category="paragraph">StorageGRID システムをBlueXPから直接検出できるようになりました。StorageGRID を検出すると、ハイブリッドマルチクラウド全体のデータを包括的に把握できます。</block>
   <block id="6f6c91d32f256a6b43783564031a35dc" category="sidebar">BlueXP以外で管理するためのStorageGRID ドキュメント</block>
@@ -213,7 +209,6 @@
   <block id="f5135b68b75a8404803a1eb438e40c5e" category="list-text">Cloud Volumes ONTAP ソフトウェアを最新リリースにアップグレードしています</block>
   <block id="39f382b97080640c75604b5890f3a5d3" category="paragraph">NSSクレデンシャルをBlueXPアカウントに関連付ける方法は、BlueXPユーザログインに関連付けられたNSSアカウントとは異なります。</block>
   <block id="e3bc6d35311568d55f1c8ea11984b964" category="paragraph">これらのNSSクレデンシャルは、特定のBlueXPアカウントIDに関連付けられています。BlueXPアカウントに属するユーザは、*[サポート]&gt;[NSS管理]*からこれらのクレデンシャルにアクセスできます。</block>
-  <block id="b200dbe3ac15ec0df201a92f5a178425" category="summary">BlueXPでStorageGRIDシステムを検出すると、ハイブリッドマルチクラウド全体のデータを包括的に把握できます。</block>
   <block id="e49fe84ab9de0d0293be60cd1cd89c71" category="doc">BlueXPを使用したStorageGRIDの管理</block>
   <block id="0307a12e5749f8dd930472ee78f69d2c" category="list-text">BlueXPコンソールの右上で、[設定]アイコンを選択し、*[クレデンシャル]*を選択します。</block>
   <block id="f19ab635e6d5f884a22ee4ce067fdbfd" category="list-text">[ユーザクレデンシャル]*を選択します。</block>
@@ -224,7 +219,6 @@
   <block id="69e6c31f6140607f08425260f2faecb5" category="list-text">ナビゲーションメニューから、*ストレージ&gt;キャンバス*を選択します。</block>
   <block id="6d6c5d7b899ea63b1f3c62a6a3d3aded" category="list-text">[Canvas]ページで、表示するStorageGRID作業環境を選択します。</block>
   <block id="8f20fc8b3a6d888979d83b127b3a4d75" category="list-text">[Add Working Environment]*を選択し、*[On-Premises]*を選択します。</block>
-  <block id="93ad647dcc5c80e370a62d0e1bd59efd" category="list-text">StorageGRIDの[クラスタの詳細]ページで、管理ノードのドメイン名またはIPアドレス、ノードのクレデンシャルを入力し、*[追加]*を選択します。</block>
   <block id="7fe6981833e8fe7fd89e0a99a55573da" category="list-text">BlueXPで、*[ヘルプ]&gt;[サポート]*を選択します。</block>
   <block id="6a1b74969231967ed071d465206b15c7" category="list-text">電話で誰かと話をしたい場合は、*[電話]*を選択します。netapp.comのページに移動し、電話番号が表示されます。</block>
   <block id="d65a2a6fc9caad1867728d4382eeb989" category="list-text">[ケースの作成]*を選択して、NetAppサポートスペシャリストとのチケットをオープンします。</block>
@@ -235,7 +229,6 @@
   <block id="348552521b849746260fe8d296d34c15" category="list-text">既存のケースを管理するには、 <block ref="566c029d89e7d5421080767a37bf443e" category="inline-image-macro-rx" type="image"></block> 使用可能なオプションのいずれかを選択します。</block>
   <block id="bb6d5d351525342dd6b3cf4d15b6f298" category="list-text">*ケースをクローズ*：ケースをクローズする理由の詳細を入力し、*ケースをクローズ*を選択します。</block>
   <block id="406c30b739850b514bd88f29f8026dcb" category="list-text">[Canvas]ページで、StorageGRID作業環境を選択します。</block>
-  <block id="b8dc050f4cabd621e66612bd76c5bb89" category="list-text">メニューアイコンを選択し、*ワークスペースから削除*を選択します。</block>
   <block id="b7dd0331ad4ede9488c2fd01dda69e83" category="list-text">[削除]*を選択して確定します。</block>
   <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
   <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
@@ -256,4 +249,118 @@
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新機能</block>
   <block id="a9e825fa00a6490b83a7ab53e320af9a" category="sidebar">作業環境を削除します</block>
   <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetAppでは、サポートとライセンスに固有の認証サービスのIDプロバイダとしてMicrosoftエントラIDを使用します。</block>
+  <block id="34515f1d88b10d0db0a78eba6c533394" category="summary">ここでは、このリリースの製品の正常な使用に支障をきたす可能性がある既知の問題について説明します。</block>
+  <block id="95dc0391ce7b396d7dd5622284e8fc3e" category="doc">既知の問題</block>
+  <block id="406e3fd6e3e44c34fe5128c92e258696" category="section-title">更新された表示名がBlueXP  に表示されない</block>
+  <block id="f3d3237068f97452e5b4aa1b7132e2ca" category="paragraph">名前変更手順を使用してサイトまたはグリッドの新しい表示名を定義した場合、新しい表示名はBlueXP  作業環境に反映されません。作業環境には、新しい表示名ではなくシステム名が引き続き表示されます。</block>
+  <block id="4184c004c3d306eac4540e4aefb2f6a9" category="section-title">アラートのフィルタリング時のエラー</block>
+  <block id="57e6970cf13aa98ffd7faf72c61853bb" category="paragraph">アドバンストビューを使用して[Alerts]ページの内容をフィルタリングするとエラーが発生します。</block>
+  <block id="1998a0486c5c4169c29f007cc908c1d7" category="section-title">グリッド連携接続の編集中にエラーが発生しました</block>
+  <block id="5094a282c5a9bba09561ad9a388f91c5" category="paragraph">アドバンストビューを使用している場合、グリッドフェデレーション接続の編集時にゲートウェイタイムアウトエラーが発生することがあります。</block>
+  <block id="ca95441ef4631129374f024b6d393b1f" category="summary">アドバンストビューを使用して、BlueXP  からStorageGRIDシステムを管理します。このビューでは、StorageGRID作業環境内からGrid Managerを使用できます。</block>
+  <block id="21bd2ca4d81529bdc81f70cd7c8cda30" category="doc">アドバンストビューを使用したStorageGRIDの管理</block>
+  <block id="1f0b82560627b660c6c6958a1df834b8" category="section-title">サポートされる構成</block>
+  <block id="305098a5de64e9f68d6eda7ca5dbf5a0" category="paragraph">Grid Managerは、StorageGRID 11.8以降のBlueXP  で使用できます。</block>
+  <block id="e646e16bee8b32e6ea29e30d01970a6c" category="section-title">制限事項</block>
+  <block id="ca3a25e6f7a6261aa863d68a55e50f76" category="paragraph">次のGrid Manager処理はBlueXP  では実行できません。これらの処理を実行する必要がある場合は、Grid Managerに直接サインインします。</block>
+  <block id="e56c7ead55fc1e5f499eae95a4a912b3" category="cell">Grid Managerメニュー</block>
+  <block id="7456c3a0c9b400bcee741b332ff9065d" category="cell">BlueXP  から実行できない処理</block>
+  <block id="8f9bfe9d1345237cb3b2b205864da075" category="paragraph">ユーザ</block>
+  <block id="f37627b09b882611b44ff399a9c378e9" category="list-text">[サインアウト]リンク</block>
+  <block id="baeaf581efec254c255d808076ebb8b5" category="list-text">APIドキュメントのリンク</block>
+  <block id="0b39c5aca15b84b1ad53a94d6b3feb78" category="list-text">パスワードの変更</block>
+  <block id="187c6ad3a74cc93ac6c2229d398e383e" category="paragraph">ノード</block>
+  <block id="3a4d215d512d4ae5edd991d81bf9972e" category="list-text">SANtricityシステムマネージャには、[ノード]&gt; SANtricity [System Manager]タブからはアクセスできません。</block>
+  <block id="97e48133192510ab2ce4a4c7af40d7c1" category="list-text">アラートを表示しているときに、推奨される対処方法の一部のリンクを選択できない場合があります。たとえば、サポートされていないGrid Managerページへのリンクは機能しません。</block>
+  <block id="ab46b0da4c689d676afbc74038c40f71" category="paragraph">テナント</block>
+  <block id="52e8a870e31fcf345b37b10609383a35" category="paragraph">テナントの作成ウィザードまたは[Tenants]ページからテナントアカウントにサインインすることはできません。</block>
+  <block id="0571f42ac82b33bb3b9fad8f666edd67" category="paragraph">BlueXP  は現在、テナントマネージャをサポートしていません。BlueXP  から新しいテナントアカウントを作成することはできますが、テナントユーザはBlueXP  から自分のアカウントにサインインすることはできません。</block>
+  <block id="45a63ab8cbf11a8d14e5315e7199fcbd" category="paragraph">ILM</block>
+  <block id="d1760d83776d2cad4f596e5fbdca7031" category="paragraph">ストレージグレードのリンク</block>
+  <block id="254f642527b45bc260048e30704edb39" category="paragraph">構成</block>
+  <block id="8e8a68d187d0714e364a531fe90c3e48" category="list-text">Grid のパスワード</block>
+  <block id="4e4b4ed3fd3d46ee1adfbe44d5d59f43" category="list-text">トラフィック分類&gt;メトリック</block>
+  <block id="a48031b9725d4cf40505c76b9f1639b6" category="list-text">[セキュリティ設定]&gt;[ブラウザの非アクティブタイムアウト]</block>
+  <block id="f349dbd269e091419d25308532e10fa9" category="list-text">シングルサインオン</block>
+  <block id="ca0fa3abc1c867e840da53c9362947e0" category="list-text">BMCインターフェイスのSNMPエージェント&gt; MIBファイル</block>
+  <block id="10d0de28911c5f66463b9c8783f8148a" category="paragraph">メンテナンス</block>
+  <block id="1c099fee7c6387b021909926b4fbcf98" category="list-text">リカバリパッケージ</block>
+  <block id="c329847c5a9eb54120dcc6a37e7688cd" category="list-text">ソフトウェアの更新</block>
+  <block id="db5eb84117d06047c97c9a0191b5fffe" category="paragraph">サポート</block>
+  <block id="18e8755b803a7bb837ea9fdd4a198fcf" category="list-text">グリッドトポロジ</block>
+  <block id="b2d37ae1cedf42ff874289b721860af2" category="list-text">ログ</block>
+  <block id="e3c28fcb661163dc6895b75c04f2efd7" category="list-text">指標。UIの他の場所にあるPrometheus指標とGrafanaダッシュボードへのすべてのリンクを含む。</block>
+  <block id="398728716b4e5021932fed1c2a8ebeb8" category="list-text">従来のアラームのすべてのオプション</block>
+  <block id="62e734353c5cfd6023d970172d9908a9" category="list-text">リンクコスト</block>
+  <block id="5afeba0bd099057d2f768c19f06ec2da" category="list-text">NMS エンティティ</block>
+  <block id="3862c7ad20b0923cf8f9b1be9e028f11" category="section-title">詳細表示に切り替える</block>
+  <block id="dca5530b7cbaaea67b0c8d5cb6158e4c" category="paragraph">StorageGRID作業環境を開き、アドバンストビューオプションを選択します。</block>
+  <block id="3d999d1b9f9b777ebfbfa7f1318c804f" category="list-text">[Canvas]ページで、StorageGRID作業環境を開きます。</block>
+  <block id="692e1e106333597b5a86044f5e0af539" category="list-text">右上の*[アドバンストビューに切り替える]*を選択します。</block>
+  <block id="507372019d28fd0eafd2c78e55dd76b1" category="inline-image-macro">[アドバンストビューに切り替え]オプションを示すStorageGRID作業環境のスクリーンショット。</block>
+  <block id="c773beb9e5504345109d5b8f63ffae18" category="paragraph"><block ref="c773beb9e5504345109d5b8f63ffae18" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4b233cf02f1889c420108e8345cc0030" category="list-text">StorageGRIDシステムを管理するには、Grid Managerを使用します。</block>
+  <block id="7c172735790e8cc4c9872774830ec348" category="paragraph">Grid Managerの[Help]メニューが次のメニューに置き換えられました。</block>
+  <block id="e94ee64c9feb1bac535b160442e2478d" category="inline-image-macro">StorageGRID作業環境のスクリーンショット。画面の右上にアクションメニューが表示されます。</block>
+  <block id="4abd7b0e29ad85015c2ab957554dd1f2" category="paragraph"><block ref="4abd7b0e29ad85015c2ab957554dd1f2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="26ae08b3bd9f7a3c87ee9c1d77d4b82b" category="paragraph">このメニューでは、APIドキュメントのリンクを除き、すべて同じヘルプオプションを使用できます。</block>
+  <block id="353a38b7d64b63f77c3a30bb9e354366" category="list-text">必要に応じて、[標準ビューに切り替え（Switch to standard view）]を選択し、BlueXP  を介して標準ビューに戻ります。</block>
+  <block id="c3be445d4276660b8cb6c62e48bd1553" category="inline-image-macro">StorageGRID作業環境のスクリーンショット。[Switch to Standard View]オプションが表示されます。</block>
+  <block id="a7b062924ce28d07b0b9507476bc7af4" category="paragraph"><block ref="a7b062924ce28d07b0b9507476bc7af4" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e5e3035b0f7e5a2843ab139092d0b6fa" category="section-title">Grid Managerに関するヘルプ</block>
+  <block id="3778f3873debfe11e2ace6bb6af1e417" category="inline-link">StorageGRID のドキュメント</block>
+  <block id="e05b3769a3e17ad902ca3ef85360d7f9" category="paragraph">Grid Managerの使用方法についてサポートが必要な場合は、を参照してステップバイステップの手順を確認<block ref="a933c7261fbaa2ef6900890d35e68b11" category="inline-link-rx"></block> してください。</block>
+  <block id="66bf914b4a3e3fe55e547c93de610f4f" category="summary">オンプレミス環境でStorageGRIDシステムを検出し、Grid Managerを使用してBlueXP  から直接管理します。</block>
+  <block id="7946381c1469da9982f0ec23675e074e" category="list-text">管理インターフェイスの証明書がStorageGRIDシステムにインストールされている必要があります。</block>
+  <block id="899334f483a8eb1e661e504ffe749109" category="inline-link">StorageGRIDへの管理インターフェイス証明書のインストールに関する詳細情報</block>
+  <block id="29f8a7fdcc1561634392c06486db3526" category="paragraph"><block ref="29f8a7fdcc1561634392c06486db3526" category="inline-link-rx"></block></block>
+  <block id="8f39c6397486565c889c697d2ee0f204" category="list-text">BlueXP  の_ StorageGRIDクラスタの詳細_ページで、管理ノードのドメイン名またはIPアドレス、ノードのクレデンシャルを入力し、*[追加]*を選択します。</block>
+  <block id="883de86cf908ad706df604bca20d6e9d" category="list-text">BlueXP  は、StorageGRID管理インターフェイスの証明書を自動的に取得します。[_Approve certificate_]ページで、証明書の詳細を確認します。</block>
+  <block id="bd9fb575ba237f8ebfeb0706ecdcbb14" category="inline-image-macro">StorageGRIDシステムの検出中に表示される[Approve Certificate]画面を示すスクリーンショット</block>
+  <block id="5d2ec429ab6adc62b7ef0809eb5d31b6" category="paragraph"><block ref="5d2ec429ab6adc62b7ef0809eb5d31b6" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="99ffc4996ddbc66ec3d88c9143de92ee" category="list-text">表示されている証明書とは異なる証明書を使用する場合は、まずStorageGRIDシステムで証明書を設定する必要があります。</block>
+  <block id="fd6ef625f97076ff9598106b60195180" category="inline-link">StorageGRIDへの管理インターフェイス証明書のインストール</block>
+  <block id="7ca143532806a5c7adafe28564a2076a" category="list-text">オンプレミスのStorageGRIDシステムで、の手順に従います。<block ref="0cf12816ab392319fa8fa5ca90f97c92" category="inline-link-rx"></block></block>
+  <block id="db712f470bd74a71528f96d96eeba458" category="list-text">StorageGRIDシステムで証明書を設定したら、BlueXP  の_Approve certificate_pageで* Cancel *を選択します。</block>
+  <block id="9ae82cb65355b4df3873a1db559ff935" category="list-text">StorageGRIDの[クラスタの詳細]ページで、*[追加]*を選択します。</block>
+  <block id="f366bb321d887c34c28635516c2e2a3f" category="list-text">必要に応じて、*[証明書のコピー]*を選択して証明書の詳細をコピーします。必要に応じて、証明書の詳細を使用して追加の検証を実行できます。</block>
+  <block id="365d382b2d9ecca9b0d40171c69b38ff" category="list-text">次のいずれかを実行します。</block>
+  <block id="45423c15c9f7fc300b5c31e290fcb524" category="list-text">証明書を使用するには、*[Approve Certificate]*を選択します。</block>
+  <block id="deac8378c59fe3d88512463d35486723" category="paragraph">成功を示すメッセージが表示されます。StorageGRIDサーバとBlueXP  Connector間のすべての通信は、承認された証明書を検証することで保護されます。</block>
+  <block id="6502d6f8bcdbec889abfd4f9ee49d279" category="inline-xref">別の証明書を使用する</block>
+  <block id="11c83ac6af0af0d96eb2efd46a58e4d7" category="list-text">証明書を検証せずに検出プロセスを終了するには、*[キャンセル]*を選択します。たとえば、StorageGRID管理証明書の更新が必要であることを通知するエラーメッセージが表示された場合は、*[キャンセル]*を選択できます。証明書を更新するには、に進みます <block ref="cbb87429ce09864118ddd4cf8178f97a" category="inline-xref-macro-rx"></block>。</block>
+  <block id="2e554a31f32eb1a9d79a5d2cc2bede8e" category="summary">BlueXP  でStorageGRIDシステムを検出したら、ネットアップのデータサービスを使用してバックアップ、データ階層化、データ同期を実行できます。</block>
+  <block id="4eab2e2a950d4847ea3f57ddbc97670b" category="list-text">BlueXP  階層化を使用すると、オンプレミスのONTAPクラスタからStorageGRIDにアクセス頻度の低いデータを自動的に階層化できます。</block>
+  <block id="39759be047cc5c7c6c37b3a3c14c7616" category="inline-link">オンプレミスのONTAPクラスタからStorageGRIDへのデータ階層化の詳細</block>
+  <block id="f2c38058631be40aaf2ca546dedb5828" category="paragraph"><block ref="f2c38058631be40aaf2ca546dedb5828" category="inline-link-rx"></block></block>
+  <block id="1c0cf398fca729802189afd04195daca" category="summary">証明書の有効期限が切れる可能性があるため、ステータスの表示や証明書の更新が必要になる場合があります。</block>
+  <block id="caa195df7a0b5a440b3683eb81e694b5" category="doc">BlueXP  で証明書を管理します。</block>
+  <block id="1fb464c67404a14a65cf030b2f0f97f0" category="paragraph">BlueXP  とStorageGRIDの間のセキュアな接続には、ユーザによって承認された管理インターフェイス証明書が必要です。証明書の有効期限が切れる可能性があるため、ステータスの表示や証明書の更新が必要になる場合があります。</block>
+  <block id="67eb5446652b4fd2dad98eddc62be98d" category="section-title">管理インターフェイス証明書のステータスの表示</block>
+  <block id="6b3bbbb8c1a9c2cde18108cb407d12b1" category="list-text">標準ビューで、ページ右側の_Information_paneの下部にあるユーザ承認証明書のステータスを確認します。</block>
+  <block id="5c8aefe50da5e68bac8b7fadb69f27cd" category="admonition">証明書のステータスは24時間に1回更新されます。</block>
+  <block id="eef982d819b54dca84adf5a46c7d66a3" category="inline-image-macro">作業環境の[Information]ペインのスクリーンショット。</block>
+  <block id="2b7070d3984c3c33331810ef399a04bf" category="paragraph"><block ref="2b7070d3984c3c33331810ef399a04bf" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ed705c097546086b65ee2918f8c18f93" category="section-title">管理インターフェイスの証明書の更新</block>
+  <block id="3daf5f764d9eac915ca7f7ab4335d201" category="paragraph">管理インターフェイス証明書のステータスが「無効」である場合や、証明書の有効期限が切れたという通知を受け取った場合は、BlueXP  がStorageGRIDに接続できるように証明書を更新する必要があります。</block>
+  <block id="4b4e284cad41e74d772677e47ccbf432" category="list-text">StorageGRIDでオンプレミスのグリッドマネージャに移動し、の手順に従います<block ref="e4a1425c9a71162659bfbfada9a25737" category="inline-link-rx"></block>。</block>
+  <block id="9e2635fdb6db86b89da8e5e9cad203da" category="list-text">Blue XPのナビゲーションメニューで、*[ストレージ]&gt;[Canvas]*を選択します。</block>
+  <block id="40540158a277d365081d54ce377ee023" category="list-text">[その他のオプション（More options）]アイコン（3つの縦の点が付いた円）を選択します。</block>
+  <block id="9769a2363939e90bde7efa3d07411abc" category="inline-image-macro">更新メニューののスクリーンショット。</block>
+  <block id="37ed989771f3eef279909a198294f53c" category="paragraph"><block ref="37ed989771f3eef279909a198294f53c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="de70401c3464a4edf8505f4b7a4258de" category="list-text">[証明書の更新]*を選択します。</block>
+  <block id="cf96257e362bc3de2bdd4efd448d70aa" category="admonition">[標準]ビューの[その他のオプション]アイコン（3つの縦の点が付いたアイコン）を使用して証明書を更新することもできます。</block>
+  <block id="434da4cffed06e08c23765d021db1afc" category="list-text">[_Approve certificate_]ページで*[Approve Certificate]*を選択して、更新された証明書を使用します。</block>
+  <block id="101a4dba130db08f412262b11097db65" category="list-text">標準ビューで、メニューアイコンを選択し、*ワークスペースから削除*を選択します。</block>
+  <block id="43371a1519dc6641cd8852962e536c3e" category="section-title">2024 年 8 月 7 日</block>
+  <block id="9e171afa6c3124020f16e21de1c7b2f4" category="section-title">新しい詳細ビュー</block>
+  <block id="0f58e681c3f3ea59c830353dd632a86c" category="paragraph">StorageGRID 11.8以降では、使い慣れたグリッドマネージャのインターフェイスを使用して、BlueXP  からStorageGRIDシステムを管理できます。</block>
+  <block id="af7b48fef3ac95547bce2972839785af" category="inline-link">アドバンストビューを使用したStorageGRIDの管理方法</block>
+  <block id="71bde38d3a1a0761ad0419a2db79d0c4" category="paragraph"><block ref="bcae03490ee8ad952aee993e2ae5e7eb" category="inline-link-rx"></block>です。</block>
+  <block id="04862482c3a7e313dee1294875d76a61" category="section-title">StorageGRID管理インターフェイス証明書の確認と承認</block>
+  <block id="7ef5c031e9bd4c1394a8093c50afe4e2" category="paragraph">BlueXP  からStorageGRIDシステムを検出するときに、StorageGRID管理インターフェイスの証明書を確認して承認できるようになりました。検出されたグリッドで、最新のStorageGRID管理インターフェイス証明書を確認して承認することもできます。</block>
+  <block id="4a314d3b77101d6faf44fa4063c45276" category="inline-link">システム検出時にサーバ証明書を確認および承認する方法について説明します。</block>
+  <block id="045269b1f12b0a8f2aee954f43a8daa6" category="paragraph"><block ref="045269b1f12b0a8f2aee954f43a8daa6" category="inline-link-rx"></block></block>
+  <block id="bf8b4b4bc9546fbf0734766cd0ad6317" category="sidebar">BlueXP  からGrid Managerを使用してStorageGRIDシステムを管理し、BlueXPのデータサービスを使用してバックアップやデータ階層化などを実行できます。</block>
+  <block id="951d3fc54a28f9f46798897467d96a5b" category="sidebar">証明書の管理</block>
 </blocks>

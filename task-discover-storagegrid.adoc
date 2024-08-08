@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-discover-storagegrid.html 
 keywords: storagegrid, cluster, discover, manage, discovering, discover storagegrid 
-summary: BlueXPでは、オンプレミス環境でStorageGRID システムを検出できます。StorageGRID クラスタをBlueXPに追加することで、ハイブリッドマルチクラウド全体のデータを完全に把握できます。 
+summary: オンプレミス環境でStorageGRIDシステムを検出し、Grid Managerを使用してBlueXP  から直接管理します。 
 ---
 = StorageGRID システムを検出
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: BlueXPでは、オンプレミス環境でStorageGRID システムを�
 
 
 [role="lead"]
-BlueXPでは、オンプレミス環境でStorageGRID システムを検出できます。StorageGRID システムをBlueXPに追加することで、ハイブリッドマルチクラウド全体のデータを完全に把握できます。
+オンプレミス環境でStorageGRIDシステムを検出し、Grid Managerを使用してBlueXP  から直接管理します。
 
 .作業を開始する前に
 次のものが必要です。
@@ -25,6 +25,10 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["コネ
 
 * 管理ノードのドメイン名またはIPアドレス。
 * 管理ノードの管理クレデンシャル。
+* 管理インターフェイスの証明書がStorageGRIDシステムにインストールされている必要があります。
++
+https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate["StorageGRIDへの管理インターフェイス証明書のインストールに関する詳細情報"^]
+
 
 
 .手順
@@ -35,9 +39,30 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["コネ
 +
 詳細については、上のリンクを参照してください。
 
-. StorageGRIDの[クラスタの詳細]ページで、管理ノードのドメイン名またはIPアドレス、ノードのクレデンシャルを入力し、*[追加]*を選択します。
+. BlueXP  の_ StorageGRIDクラスタの詳細_ページで、管理ノードのドメイン名またはIPアドレス、ノードのクレデンシャルを入力し、*[追加]*を選択します。
 +
 image:screenshot-cluster-details.png["StorageGRID のクラスタの詳細ページを示すスクリーンショット。管理ノードのドメイン名またはIPアドレスとクレデンシャルを入力します。"]
+
+. BlueXP  は、StorageGRID管理インターフェイスの証明書を自動的に取得します。[_Approve certificate_]ページで、証明書の詳細を確認します。
++
+image:screenshot-bluexp-approve-certificate.png["StorageGRIDシステムの検出中に表示される[Approve Certificate]画面を示すスクリーンショット"]
+
+. 表示されている証明書とは異なる証明書を使用する場合は、まずStorageGRIDシステムで証明書を設定する必要があります。
++
+.. オンプレミスのStorageGRIDシステムで、の手順に従います。 https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate["StorageGRIDへの管理インターフェイス証明書のインストール"^]
+.. StorageGRIDシステムで証明書を設定したら、BlueXP  の_Approve certificate_pageで* Cancel *を選択します。
+.. StorageGRIDの[クラスタの詳細]ページで、*[追加]*を選択します。
+
+
+. 必要に応じて、*[証明書のコピー]*を選択して証明書の詳細をコピーします。必要に応じて、証明書の詳細を使用して追加の検証を実行できます。
+. 次のいずれかを実行します。
++
+.. 証明書を使用するには、*[Approve Certificate]*を選択します。
++
+成功を示すメッセージが表示されます。StorageGRIDサーバとBlueXP  Connector間のすべての通信は、承認された証明書を検証することで保護されます。
+
+.. 証明書を検証せずに検出プロセスを終了するには、*[キャンセル]*を選択します。たとえば、StorageGRID管理証明書の更新が必要であることを通知するエラーメッセージが表示された場合は、*[キャンセル]*を選択できます。証明書を更新するには、に進みます <<use-a-different-certificate,別の証明書を使用する>>。
+
 
 
 

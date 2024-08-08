@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: task-enable-data-services.html 
-keywords: storagegrid, cloud sync, cloud backup, backup, back up data 
-summary: BlueXPでStorageGRID システムを検出すると、ネットアップのデータサービスとStorageGRID を使用してバックアップとデータ同期を行うことができます。 
+keywords: storagegrid, cloud sync, cloud backup, backup, back up data, tier data, data tiering, tiering to storagegrid 
+summary: BlueXP  でStorageGRIDシステムを検出したら、ネットアップのデータサービスを使用してバックアップ、データ階層化、データ同期を実行できます。 
 ---
 = ネットアップのデータサービスとStorageGRID を併用
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: BlueXPでStorageGRID システムを検出すると、ネットアッ�
 
 
 [role="lead"]
-BlueXPでStorageGRID システムを検出すると、ネットアップのデータサービスを使用してバックアップやデータ同期を行うことができます。
+BlueXP  でStorageGRIDシステムを検出したら、ネットアップのデータサービスを使用してバックアップ、データ階層化、データ同期を実行できます。
 
 * BlueXPのバックアップとリカバリを使用して、オンプレミスのONTAP システムからNetApp StorageGRID システムのオブジェクトストレージにデータをバックアップします。
 +
@@ -22,6 +22,13 @@ BlueXPのキャンバスに移動して、オンプレミスのONTAP 作業環�
 
 +
 https://docs.netapp.com/us-en/bluexp-backup-recovery/task-backup-onprem-private-cloud.html["オンプレミスのONTAP データをStorageGRID にバックアップする方法の詳細については、こちらをご覧ください"^]
+
+* BlueXP  階層化を使用すると、オンプレミスのONTAPクラスタからStorageGRIDにアクセス頻度の低いデータを自動的に階層化できます。
++
+BlueXPのキャンバスに移動して、オンプレミスのONTAP 作業環境をStorageGRID 作業環境にドラッグアンドドロップします。
+
++
+https://docs.netapp.com/us-en/bluexp-tiering/task-tiering-onprem-storagegrid.html["オンプレミスのONTAPクラスタからStorageGRIDへのデータ階層化の詳細"^]
 
 * BlueXPのコピーと同期を使用して、StorageGRID システムとの間でデータを同期します。
 +

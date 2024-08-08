@@ -16,6 +16,8 @@ sidebar:
     entries:
     - title: 新機能
       url: "/whats-new.html"
+    - title: 既知の問題
+      url: "/reference-known-issues.html"
   - title: はじめに
     entries:
     - title: StorageGRID システムを検出
@@ -24,6 +26,10 @@ sidebar:
     entries:
     - title: StorageGRID システムを表示します
       url: "/task-view-storagegrid.html"
+    - title: 証明書の管理
+      url: "/task-manage-certificates.html"
+    - title: アドバンストビューを使用したStorageGRIDの管理
+      url: task-administer-storagegrid.html
     - title: ネットアップのデータサービスとStorageGRID を併用
       url: "/task-enable-data-services.html"
     - title: 作業環境を削除します
