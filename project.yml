@@ -26,7 +26,7 @@ sidebar:
     entries:
     - title: StorageGRID システムを表示します
       url: "/task-view-storagegrid.html"
-    - title: 証明書の管理
+    - title: StorageGRID証明書の表示と更新
       url: "/task-manage-certificates.html"
     - title: アドバンストビューを使用したStorageGRIDの管理
       url: task-administer-storagegrid.html
