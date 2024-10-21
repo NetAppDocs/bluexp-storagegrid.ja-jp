@@ -6,7 +6,6 @@
   <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">2022年9月18日</block>
   <block id="dc8bb8905a6984d0c45a4ada9e618ace" category="section-title">StorageGRID のサポート</block>
   <block id="d85b01f001ee16ebd8eb1917c739d824" category="doc">StorageGRID システムを検出</block>
-  <block id="031f2c2a8e686936eab9e36e2d0d5c66" category="list-text">クラウドプロバイダまたはオンプレミスにインストールされ、StorageGRID システムへのネットワーク接続を備えたコネクタ。</block>
   <block id="013d29d39e390d6b894eaf54e5b91328" category="inline-link">コネクタの詳細と、コネクタの作成方法について説明します</block>
   <block id="8ed6fea4723099b9cd21d8f577ab8fb6" category="list-text">管理ノードのドメイン名またはIPアドレス。</block>
   <block id="cdf740c7139af2d388c8083334061fa1" category="list-text">管理ノードの管理クレデンシャル。</block>
@@ -363,4 +362,6 @@
   <block id="0ca08a23718c0a91743dd6c0146ca353" category="paragraph">Cloud Volumes ONTAPで次の主要なワークフローを有効にするには、NetAppサポートサイトのクレデンシャルをBlueXP  組織に関連付ける必要があります。</block>
   <block id="c81c8e01f5d906ae1ab0c5c606f06b05" category="paragraph">NSSクレデンシャルとBlueXP  組織の関連付けは、BlueXP  ユーザログインに関連付けられたNSSアカウントとは異なります。</block>
   <block id="8166996cb4a59c147200d89a061bb49c" category="paragraph">これらのNSSクレデンシャルは、特定のBlueXP  組織IDに関連付けられています。BlueXP  組織に属するユーザは、*[サポート]&gt;[NSS管理]*からこれらのクレデンシャルにアクセスできます。</block>
+  <block id="812698067d3edfc405bb07423d81be18" category="list-text">StorageGRIDシステムへのネットワーク接続を備えた、バージョン3.9.43以降を実行しているコネクタ。</block>
+  <block id="9c0e98fb28f894724e92772753a585bc" category="paragraph">コネクタはクラウドまたはオンプレミスに配置できます。必要なのは、StorageGRIDシステムへのネットワーク接続だけです。</block>
 </blocks>

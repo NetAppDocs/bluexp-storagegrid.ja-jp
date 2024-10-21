@@ -19,7 +19,10 @@ summary: オンプレミス環境でStorageGRIDシステムを検出し、Grid M
 .作業を開始する前に
 次のものが必要です。
 
-* クラウドプロバイダまたはオンプレミスにインストールされ、StorageGRID システムへのネットワーク接続を備えたコネクタ。
+* StorageGRIDシステムへのネットワーク接続を備えた、バージョン3.9.43以降を実行しているコネクタ。
++
+コネクタはクラウドまたはオンプレミスに配置できます。必要なのは、StorageGRIDシステムへのネットワーク接続だけです。
+
 +
 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["コネクタの詳細と、コネクタの作成方法について説明します"^]
 
