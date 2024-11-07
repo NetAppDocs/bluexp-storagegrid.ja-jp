@@ -1,0 +1,9 @@
+= StorageGRID のサポート
+:allow-uri-read: 
+
+
+
+
+=== StorageGRID のサポート
+
+StorageGRID システムをBlueXPから直接検出できるようになりました。StorageGRID を検出すると、ハイブリッドマルチクラウド全体のデータを包括的に把握できます。
