@@ -365,4 +365,6 @@
   <block id="9c0e98fb28f894724e92772753a585bc" category="paragraph">コネクタはクラウドまたはオンプレミスに配置できます。必要なのは、StorageGRIDシステムへのネットワーク接続だけです。</block>
   <block id="db188d9c1fa3be7f6644057e551033c7" category="list-text">バージョン3.9.43以降を使用したコネクタの新規インストール。</block>
   <block id="dc8d4eccfd0e6edfd9b12eab22e1dda9" category="list-text">コネクタからStorageGRIDシステムへのネットワーク接続。</block>
+  <block id="4e6cac25727040c5c5bd57e5c5555bec" category="inline-link-macro">StorageGRIDシステムのBlueXP  管理に関する通知</block>
+  <block id="6da0afd2bb3a5e61128a9818c9a173e9" category="list-text"><block ref="6da0afd2bb3a5e61128a9818c9a173e9" category="inline-link-macro-rx"></block></block>
 </blocks>

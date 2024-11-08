@@ -47,4 +47,6 @@ link:https://www.netapp.com/company/legal/privacy-policy/["https://www.netapp.co
 
 通知ファイルには、ネットアップソフトウェアで使用されるサードパーティの著作権およびライセンスに関する情報が記載されています。
 
-https://docs.netapp.com/us-en/bluexp-setup-admin/media/notice.pdf["BlueXPに関する注意事項"^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/media/notice.pdf["BlueXPに関する注意事項"^]
+* link:media/notice.pdf["StorageGRIDシステムのBlueXP  管理に関する通知"^]
+
